@@ -12,6 +12,10 @@
 #include "enb.h"
 #include "ue.h"
 
+int num_ue;
+struct sockaddr_in servaddr;
+struct ue_info *ue_info_arr;
+
 int main(int argc, char *argv[])
 {
 	pthread_t thread_id;

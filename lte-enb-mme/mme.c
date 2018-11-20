@@ -15,6 +15,9 @@
 struct sockaddr_in addr = {0};
 socklen_t from_len;
 int socket_fd = -1;
+int num_ue;
+struct sockaddr_in servaddr;
+struct ue_info *ue_info_arr;
 
 int main(int argc, char *argv[])
 {

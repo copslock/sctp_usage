@@ -63,5 +63,5 @@ struct ue_info {
     enum ue_state ue_state;
 };
 
-struct ue_info *ue_info_arr;
+extern struct ue_info *ue_info_arr;
 #endif

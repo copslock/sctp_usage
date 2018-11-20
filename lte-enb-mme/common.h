@@ -13,8 +13,8 @@
 #define debug_print(fmt, ...) do {} while (0)
 #endif
 
-int num_ue;
-struct sockaddr_in servaddr;
+extern int num_ue;
+extern struct sockaddr_in servaddr;
 
 enum s1ap_message_type {
     ATTACH_REQ = 0,
